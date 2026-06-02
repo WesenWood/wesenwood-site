@@ -105,65 +105,126 @@
 </body>
 </html>
 
-<section class="luxury-inquiry" id="inquiry">
+<section class="inquiry-section">
 
-    <div class="luxury-container">
+    <div class="inquiry-left">
 
-        <div class="luxury-left">
+        <div class="brand-wrap">
 
-            <span class="luxury-tag">
-                INQUIRY
-            </span>
+            <img
+                src="images/wesenwood-logo-white.png"
+                alt="WESEN WOOD"
+                class="brand-logo"
+            >
 
-            <h2>
-                LET'S BUILD<br>
-                SOMETHING<br>
-                TOGETHER
-            </h2>
+            <div class="brand-line"></div>
 
-            <p>
-                Tell us about your project, product requirements,
-                or sourcing needs. Our team will respond within 24 hours.
+            <p class="brand-slogan">
+                PREMIUM WOOD PRODUCTS SOLUTIONS
             </p>
 
         </div>
 
-        <div class="luxury-divider"></div>
+    </div>
 
-        <div class="luxury-right">
+    <div class="vertical-divider"></div>
 
-            <form action="https://formsubmit.co/info@wesenwood.com" method="POST">
+    <div class="inquiry-right">
 
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_subject" value="New Inquiry - WESEN WOOD">
+        <form
+            action="https://formsubmit.co/info@wesenwood.com"
+            method="POST"
+        >
 
-                <div class="luxury-field">
-                    <label>Your Name</label>
-                    <input type="text" name="name" required>
+            <input type="hidden" name="_subject" value="New Inquiry - WESEN WOOD">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="form-row full">
+
+                <label>COMPANY NAME</label>
+
+                <input
+                    type="text"
+                    name="company"
+                    required
+                >
+
+            </div>
+
+            <div class="form-grid">
+
+                <div>
+
+                    <label>YOUR NAME</label>
+
+                    <input
+                        type="text"
+                        name="name"
+                        required
+                    >
+
                 </div>
 
-                <div class="luxury-field">
-                    <label>Company Name</label>
-                    <input type="text" name="company">
+                <div>
+
+                    <label>EMAIL ADDRESS</label>
+
+                    <input
+                        type="email"
+                        name="email"
+                        required
+                    >
+
                 </div>
 
-                <div class="luxury-field">
-                    <label>Email Address</label>
-                    <input type="email" name="email" required>
+            </div>
+
+            <div class="form-grid">
+
+                <div>
+
+                    <label>PRODUCT</label>
+
+                    <input
+                        type="text"
+                        name="product"
+                    >
+
                 </div>
 
-                <div class="luxury-field">
-                    <label>Your Message</label>
-                    <textarea name="message" rows="5" required></textarea>
+                <div>
+
+                    <label>QUANTITY</label>
+
+                    <input
+                        type="text"
+                        name="quantity"
+                    >
+
                 </div>
 
-                <button type="submit">
-                    SEND INQUIRY
-                </button>
+            </div>
 
-            </form>
+            <div class="form-row full">
 
-        </div>
+                <label>SPECIFICATIONS</label>
+
+                <textarea
+                    name="specifications"
+                    rows="4"
+                ></textarea>
+
+            </div>
+
+            <button type="submit">
+
+                SEND INQUIRY
+
+                <span>→</span>
+
+            </button>
+
+        </form>
 
     </div>
 
