@@ -474,11 +474,17 @@ footer{
     background:transparent;
     border:none;
     border-bottom:1px solid rgba(214,177,106,.75);
-    color:#ffffff;
+    color:#ffffff !important;
     font-size:18px;
     line-height:1.4;
     padding:0 0 16px;
     outline:none;
+}
+
+.inquiry-right input::placeholder,
+.inquiry-right textarea::placeholder{
+    color:rgba(255,255,255,.45) !important;
+    opacity:1 !important;
 }
 
 .inquiry-right textarea{
