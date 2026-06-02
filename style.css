@@ -387,11 +387,11 @@ footer{
 
     display:grid;
 
-    grid-template-columns:42% 1px 58%;
+    grid-template-columns:38% 1px 62%;
 
     align-items:center;
 
-    min-height:760px;
+    min-height:700px;
 }
 
 .inquiry-left{
@@ -411,7 +411,7 @@ footer{
 }
 
 .brand-logo{
-    width:380px;
+    width:360px;
     max-width:100%;
     display:block;
     margin:0 auto;
