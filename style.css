@@ -379,140 +379,216 @@ footer{
   .stats h2{font-size:48px}
 }
 
-.inquiry-section{
-    background:#123528;
-    padding:140px clamp(24px,8vw,110px);
-    color:#fff;
+/* ===========================
+   WESEN TIMBER LUXURY INQUIRY
+=========================== */
+
+.luxury-inquiry{
+
+    position:relative;
+
+    padding:140px 8vw;
+
+    overflow:hidden;
+
+    background:
+    radial-gradient(circle at 15% 20%,
+    rgba(214,177,106,.08),
+    transparent 35%),
+
+    radial-gradient(circle at 90% 85%,
+    rgba(214,177,106,.05),
+    transparent 40%),
+
+    #102d23;
 }
 
-.inquiry-container{
+.luxury-container{
+
     max-width:1400px;
+
     margin:auto;
+
     display:grid;
+
     grid-template-columns:1fr 1px 1fr;
-    gap:70px;
+
+    gap:90px;
+
     align-items:start;
 }
 
-.divider{
-    background:rgba(214,177,106,.35);
-    min-height:700px;
+.luxury-divider{
+
+    width:1px;
+
+    min-height:640px;
+
+    background:
+    linear-gradient(
+    transparent,
+    rgba(214,177,106,.4),
+    rgba(214,177,106,.4),
+    transparent
+    );
 }
 
-.inquiry-label{
+.luxury-tag{
+
     display:block;
+
     color:#D6B16A;
-    letter-spacing:.25em;
+
     font-size:13px;
-    margin-bottom:20px;
+
+    letter-spacing:.35em;
+
+    margin-bottom:24px;
+
+    text-transform:uppercase;
 }
 
-.inquiry-left h2{
+.luxury-left h2{
+
+    color:white;
+
     font-family:'Montserrat',sans-serif;
-    font-size:clamp(52px,6vw,88px);
-    line-height:1;
-    margin-bottom:30px;
+
+    font-size:clamp(58px,6vw,92px);
+
     font-weight:600;
-}
 
-.inquiry-left p{
-    max-width:520px;
-    color:rgba(255,255,255,.75);
-    font-size:19px;
-    line-height:1.8;
-}
+    line-height:1.02;
 
-.inquiry-features{
-    margin-top:80px;
-}
-
-.feature-item{
-    display:flex;
-    align-items:center;
-    gap:24px;
     margin-bottom:40px;
 }
 
-.feature-item span{
-    color:#D6B16A;
-    font-family:'Montserrat',sans-serif;
-    font-size:28px;
-    min-width:50px;
+.luxury-left p{
+
+    color:rgba(255,255,255,.72);
+
+    max-width:500px;
+
+    font-size:19px;
+
+    line-height:1.9;
 }
 
-.feature-item h4{
-    font-size:22px;
-    font-weight:500;
+.luxury-right{
+
+    padding-top:20px;
 }
 
-.field{
+.luxury-field{
+
     margin-bottom:42px;
 }
 
-.field label{
+.luxury-field label{
+
     display:block;
+
     color:#D6B16A;
-    text-transform:uppercase;
-    letter-spacing:.18em;
+
     font-size:12px;
+
+    letter-spacing:.18em;
+
+    text-transform:uppercase;
+
     margin-bottom:14px;
 }
 
-.field input,
-.field textarea{
+.luxury-field input,
+.luxury-field textarea{
+
     width:100%;
+
     background:none;
+
     border:none;
-    border-bottom:1px solid rgba(214,177,106,.5);
-    padding:14px 0;
+
+    border-bottom:1px solid rgba(214,177,106,.38);
+
+    padding:16px 0;
+
     color:white;
+
     font-size:18px;
+
+    font-family:'Inter',sans-serif;
+
     outline:none;
-}
 
-.field textarea{
-    resize:none;
-}
-
-.field input:focus,
-.field textarea:focus{
-    border-color:#D6B16A;
-}
-
-.inquiry-right button{
-    width:100%;
-    height:72px;
-    background:#D6B16A;
-    color:#123528;
-    border:none;
-    font-weight:700;
-    letter-spacing:.2em;
-    cursor:pointer;
-    font-size:14px;
     transition:.3s;
 }
 
-.inquiry-right button:hover{
-    background:#E3C17A;
-    transform:translateY(-2px);
+.luxury-field input:focus,
+.luxury-field textarea:focus{
+
+    border-color:#D6B16A;
 }
 
-@media(max-width:900px){
+.luxury-field textarea{
 
-    .inquiry-container{
+    resize:none;
+}
+
+.luxury-right button{
+
+    width:420px;
+
+    max-width:100%;
+
+    height:74px;
+
+    border:none;
+
+    cursor:pointer;
+
+    background:#D6B16A;
+
+    color:#123528;
+
+    font-weight:700;
+
+    letter-spacing:.18em;
+
+    font-size:13px;
+
+    text-transform:uppercase;
+
+    transition:.35s;
+}
+
+.luxury-right button:hover{
+
+    background:#E4C27A;
+
+    transform:translateY(-3px);
+}
+
+@media(max-width:1000px){
+
+    .luxury-container{
+
         grid-template-columns:1fr;
+
+        gap:60px;
     }
 
-    .divider{
+    .luxury-divider{
+
         display:none;
     }
 
-    .inquiry-left h2{
-        font-size:48px;
+    .luxury-left h2{
+
+        font-size:56px;
     }
 
-    .inquiry-section{
-        padding:90px 24px;
-    }
+    .luxury-right button{
 
+        width:100%;
+    }
 }
