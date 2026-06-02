@@ -404,45 +404,33 @@ footer{
 }
 
 .brand-wrap{
-
     width:100%;
-
-    max-width:560px;
-
+    max-width:520px;
     text-align:center;
+    margin:auto;
 }
 
 .brand-logo{
-
-    width:520px;
-
+    width:440px;
     max-width:100%;
-
+    display:block;
     margin:0 auto;
 }
 
 .brand-line{
-
-    width:100%;
-
+    width:72%;
     height:1px;
-
     background:#D6B16A;
-
-    margin:40px auto 30px;
+    margin:30px auto 22px;
 }
 
 .brand-slogan{
-
     color:#D6B16A;
-
     font-size:18px;
-
-    letter-spacing:.22em;
-
     font-weight:500;
-
+    letter-spacing:.22em;
     text-transform:uppercase;
+    line-height:1.6;
 }
 
 .vertical-divider{
@@ -457,113 +445,82 @@ footer{
 }
 
 .inquiry-right{
-
     padding-left:90px;
 }
 
 .form-row{
-
     margin-bottom:55px;
 }
 
 .form-grid{
-
     display:grid;
-
     grid-template-columns:1fr 1fr;
-
-    gap:55px;
-
+    gap:64px;
     margin-bottom:55px;
 }
 
 .inquiry-right label{
-
     display:block;
-
     color:#FFFFFF;
-
     font-size:13px;
-
-    letter-spacing:.18em;
-
     font-weight:600;
-
+    letter-spacing:.18em;
     margin-bottom:18px;
 }
 
 .inquiry-right input,
 .inquiry-right textarea{
-
     width:100%;
-
-    background:none;
-
+    background:transparent;
     border:none;
-
     border-bottom:1px solid rgba(214,177,106,.75);
-
     color:#ffffff;
-
     font-size:18px;
-
-    padding:0 0 18px;
-
+    line-height:1.4;
+    padding:0 0 16px;
     outline:none;
 }
 
 .inquiry-right textarea{
-
+    min-height:140px;
     resize:none;
+}
 
-    min-height:120px;
+.inquiry-right input::placeholder,
+.inquiry-right textarea::placeholder{
+    color:rgba(255,255,255,.45);
+    font-size:18px;
+    font-weight:400;
 }
 
 .inquiry-right input:focus,
 .inquiry-right textarea:focus{
-
     border-bottom-color:#D6B16A;
 }
 
 button{
-
     width:100%;
-
-    height:78px;
-
+    height:82px;
     border:none;
-
     background:#D6B16A;
-
     color:#08271E;
-
     font-size:16px;
-
     letter-spacing:.18em;
-
     font-weight:700;
-
     cursor:pointer;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
-    gap:16px;
-
+    gap:18px;
     transition:.3s;
 }
 
 button:hover{
-
     background:#E0BE7C;
 }
 
 button span{
-
-    font-size:24px;
+    font-size:28px;
 }
 
 @media(max-width:991px){
