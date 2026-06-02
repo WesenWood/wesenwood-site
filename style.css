@@ -50,10 +50,10 @@ a{color:inherit}
 
 .logo{
   color:#fff;
-  font-family:"Cormorant Garamond",Georgia,serif;
+  font-family:'Inter',sans-serif;
   font-size:30px;
   font-weight:700;
-  letter-spacing:.08em;
+  letter-spacing:.12em;
   text-decoration:none;
   white-space:nowrap;
 }
@@ -121,9 +121,10 @@ a:focus-visible,
 
 h1{
   color:#fff;
-  font-family:"Cormorant Garamond",Georgia,serif;
-  font-size:clamp(52px,8vw,86px);
+  font-family:'Inter',sans-serif;
+  font-size:clamp(44px,6vw,72px);
   font-weight:700;
+  letter-spacing:-0.03em;
   line-height:.94;
   margin:18px 0 24px;
 }
@@ -233,7 +234,9 @@ h1{
   max-width:920px;
   margin:0 auto 42px;
   text-align:center;
-  font-family:"Cormorant Garamond",Georgia,serif;
+  font-family:'Inter',sans-serif;
+  font-weight:700;
+  letter-spacing:-0.02em;
   font-size:clamp(40px,5vw,60px);
   line-height:1.05;
 }
@@ -268,8 +271,9 @@ h1{
 
 .card h3{
   color:var(--forest);
-  font-family:"Cormorant Garamond",Georgia,serif;
-  font-size:32px;
+  font-family:'Inter',sans-serif;
+  font-weight:700;
+  font-size:28px;
   margin-bottom:18px;
 }
 
@@ -352,6 +356,7 @@ footer{
   color:rgba(255,255,255,.64);
   text-align:center;
   padding:28px 20px;
+  font-family:'Inter',sans-serif;
   font-size:14px;
 }
 
