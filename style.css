@@ -581,3 +581,63 @@ button span{
     color:#123629;
     min-height:120px;
 }
+
+.product-selector{
+    margin-bottom:55px;
+}
+
+.product-group{
+    border-bottom:1px solid rgba(214,177,106,.35);
+    padding:16px 0;
+}
+
+.product-group summary{
+    list-style:none;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:18px;
+    font-weight:500;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.product-group summary::-webkit-details-marker{
+    display:none;
+}
+
+.product-group summary::after{
+    content:"+";
+    color:#D6B16A;
+    font-size:22px;
+    transition:.25s;
+}
+
+.product-group[open] summary::after{
+    content:"−";
+}
+
+.product-options{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px 24px;
+    padding-top:18px;
+}
+
+.product-options label{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:rgba(255,255,255,.92);
+    font-size:15px;
+    font-weight:400;
+    margin:0;
+    letter-spacing:normal;
+}
+
+.product-options input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    accent-color:#D6B16A;
+    cursor:pointer;
+}
