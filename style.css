@@ -637,13 +637,14 @@ button span{
     letter-spacing:0;
     text-transform:none;
     color:#ffffff;
-  summary,
+}
+
+summary,
 summary *,
 .product-options,
 .product-options *{
     font-family:'Inter',sans-serif !important;
 }
-  }
 
 /* Submit Button */
 .inquiry-right button{
