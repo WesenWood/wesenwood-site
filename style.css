@@ -182,7 +182,7 @@ h1{
 }
 
 .glass h2{
-  font-family:"Cormorant Garamond",Georgia,serif;
+  font-family:'Inter',sans-serif;
   font-size:32px;
   margin-bottom:22px;
 }
@@ -212,7 +212,7 @@ h1{
 }
 
 .stats h2{
-  font-family:"Cormorant Garamond",Georgia,serif;
+  font-family:'Inter',sans-serif;
   font-size:58px;
   line-height:1;
   margin-bottom:10px;
@@ -338,7 +338,7 @@ h1{
 }
 
 .cta h2{
-  font-family:"Cormorant Garamond",Georgia,serif;
+  font-family:'Inter',sans-serif;
   font-size:clamp(42px,5vw,62px);
   line-height:1.05;
   margin-bottom:18px;
@@ -580,4 +580,69 @@ button span{
     border:1px solid rgba(18,54,41,.12);
     color:#123629;
     min-height:120px;
+}
+
+/* =========================================
+   WESEN WOOD Inquiry Typography Fix
+========================================= */
+
+.inquiry-section,
+.inquiry-section *{
+    font-family:'Inter',sans-serif !important;
+}
+
+/* Field Labels */
+.inquiry-right label{
+    font-family:'Inter',sans-serif;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+}
+
+/* Input & Textarea */
+.inquiry-right input,
+.inquiry-right textarea,
+.inquiry-right select{
+    font-family:'Inter',sans-serif !important;
+    font-size:18px;
+    font-weight:400;
+    color:#ffffff;
+}
+
+/* Placeholder */
+.inquiry-right input::placeholder,
+.inquiry-right textarea::placeholder{
+    font-family:'Inter',sans-serif !important;
+    font-size:18px;
+    font-weight:400;
+    color:rgba(255,255,255,.45);
+}
+
+/* Product Selector */
+.product-group summary{
+    font-family:'Inter',sans-serif !important;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:#ffffff;
+}
+
+/* Checkbox Text */
+.product-options label{
+    font-family:'Inter',sans-serif !important;
+    font-size:16px;
+    font-weight:400;
+    letter-spacing:0;
+    text-transform:none;
+    color:#ffffff;
+}
+
+/* Submit Button */
+.inquiry-right button{
+    font-family:'Inter',sans-serif !important;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing:.18em;
 }
